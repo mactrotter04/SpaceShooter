@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -134,37 +134,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main Ship - Engines - Supercharged Engine - Spritesheet_0
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 2
-        width: 168
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc2f1a513b406e410800000000000000
-      internalID: 1505896292610601677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Main Ship - Engines - Supercharged Engine - Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 1
-        width: 8
+        x: 13
+        y: 0
+        width: 22
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,37 +156,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Ship - Engines - Supercharged Engine - Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 1
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48f2b3f3ecb4df960800000000000000
-      internalID: 7637343892286418820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Main Ship - Engines - Supercharged Engine - Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 6
-        width: 8
-        height: 8
+        x: 61
+        y: 0
+        width: 22
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,37 +178,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Ship - Engines - Supercharged Engine - Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 6
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6d37aa5bb739af10800000000000000
-      internalID: 2281415964059188586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Main Ship - Engines - Supercharged Engine - Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 108
-        y: 7
-        width: 8
-        height: 7
+        x: 109
+        y: 0
+        width: 22
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +203,12 @@ TextureImporter:
       name: Main Ship - Engines - Supercharged Engine - Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 156
+        x: 157
         y: 0
-        width: 8
-        height: 14
+        width: 22
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,33 +221,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Main Ship - Engines - Supercharged Engine - Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 0
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0790524735280dc90800000000000000
-      internalID: -7147069313694496400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 38009e32532f2334fa8ef83becea4ac8
     internalID: 0
     vertices: []
     indices: 

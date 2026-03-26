@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -161,12 +161,12 @@ TextureImporter:
       name: Nautolan Ship - Dreadnought - Engine Effect_0
       rect:
         serializedVersion: 2
-        x: 45
+        x: 46
         y: 6
-        width: 14
-        height: 18
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,37 +180,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_1
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 6
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec81c78eb34fa0190800000000000000
-      internalID: -7995309650302199602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_2
       rect:
         serializedVersion: 2
-        x: 173
+        x: 174
         y: 6
-        width: 14
-        height: 18
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,37 +202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_3
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 6
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2635e9350bd081040800000000000000
-      internalID: 4618456468836733794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_4
       rect:
         serializedVersion: 2
-        x: 301
-        y: 5
-        width: 14
-        height: 19
+        x: 302
+        y: 6
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,37 +224,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_5
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 5
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 728e7f61b1d726ee0800000000000000
-      internalID: -1269314589662123993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_6
       rect:
         serializedVersion: 2
-        x: 429
+        x: 430
         y: 6
-        width: 14
-        height: 18
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,37 +246,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_7
-      rect:
-        serializedVersion: 2
-        x: 453
-        y: 6
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b7f0a8595f44ba90800000000000000
-      internalID: -7299121850903103563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_8
       rect:
         serializedVersion: 2
-        x: 557
+        x: 558
         y: 6
-        width: 14
-        height: 18
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,37 +268,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_9
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 6
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc6f4d262a8dd2580800000000000000
-      internalID: -8850179500758731061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_10
       rect:
         serializedVersion: 2
-        x: 685
+        x: 686
         y: 6
-        width: 14
-        height: 18
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,37 +290,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_11
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 6
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44e2bbbae54ad0f10800000000000000
-      internalID: 2237625316388056644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_12
       rect:
         serializedVersion: 2
-        x: 813
-        y: 5
-        width: 14
-        height: 19
+        x: 814
+        y: 6
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -444,37 +312,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_13
-      rect:
-        serializedVersion: 2
-        x: 837
-        y: 5
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d65ad63ada3108800800000000000000
-      internalID: 612511185814529389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Nautolan Ship - Dreadnought - Engine Effect_14
       rect:
         serializedVersion: 2
-        x: 941
+        x: 942
         y: 6
-        width: 14
-        height: 18
+        width: 36
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,33 +333,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Dreadnought - Engine Effect_15
-      rect:
-        serializedVersion: 2
-        x: 965
-        y: 6
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64bff45fb3d83bdf0800000000000000
-      internalID: -165633472624329914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 95ff25e0ec003eb4886476269bb42c1e
     internalID: 0
     vertices: []
     indices: 
