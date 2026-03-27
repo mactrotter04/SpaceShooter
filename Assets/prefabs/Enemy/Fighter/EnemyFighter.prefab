@@ -241,7 +241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c9e2479bc508a49a11a38f5dba71f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
+  isPlayer: 0
   health: 100
+  score: 20
 --- !u!114 &-33206824355635774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
   projectilePrefab: {fileID: 5886928996358594148, guid: 97bd438267f4b4f4a9e08a25e3f916ba, type: 3}
-  progectileSpeed: 5
+  progectileSpeed: 8
   progectileLifeTime: 5
   baseFireingRate: 1
   enemeyFireing: 1

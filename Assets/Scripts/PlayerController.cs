@@ -47,7 +47,6 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue value)
     {
         input = value.Get<Vector2>();
-        Debug.Log(input);
     }
 
     void InitBounds()

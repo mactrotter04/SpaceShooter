@@ -2,17 +2,24 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField] bool isPlayer;
     [SerializeField] int health = 100;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] int score = 50;
+
+    Audiomanager Audiomanager;
+    ScoreKeeper scoreKeeper;
+    LevelManager levelManager;
+
+    public int GetHealth()
     {
-        
+        return health;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        Audiomanager = FindAnyObjectByType<Audiomanager>();
+        scoreKeeper = FindAnyObjectByType<ScoreKeeper>();
+        levelManager = FindFirstObjectByType<LevelManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -23,6 +30,7 @@ public class Health : MonoBehaviour
         {
             TakeDamage(damageDealer.GetDamage());
             damageDealer.Hit();
+            Audiomanager.PlayDamageSFX();
         }
     }
 
@@ -33,7 +41,23 @@ public class Health : MonoBehaviour
 
         if(health <- 0)
         {
-            Destroy(gameObject);
+            Death();
         }
     }
+
+    void Death()
+    {
+        if(!isPlayer)
+        {
+            scoreKeeper.ModifyScore(score);
+        }
+        else
+        {
+            levelManager.LoadGameOver();
+        }
+
+            Destroy(gameObject);
+    }
+
+
 }

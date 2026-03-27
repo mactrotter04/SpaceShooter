@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: WaveConfig 9
   m_EditorClassIdentifier: Assembly-CSharp::WaveConfigSO
   enemyPrefabs:
-  - {fileID: 2047196727565754824, guid: 6ae7d865c6957504dbc8420c1f1b8e4f, type: 3}
-  - {fileID: 2047196727565754824, guid: 6ae7d865c6957504dbc8420c1f1b8e4f, type: 3}
-  - {fileID: 2047196727565754824, guid: 6ae7d865c6957504dbc8420c1f1b8e4f, type: 3}
-  pathPrefab: {fileID: 532487198591870917, guid: 857689a4114f82a4c879a0d3588840bc, type: 3}
-  moveSpeed: 2
+  - {fileID: 5244779745498219876, guid: 1adf5ed54941c1745ae243bf59a94380, type: 3}
+  pathPrefab: {fileID: 198245070909012295, guid: c8ceb97113c31aa40aae8c2fc5a8662e, type: 3}
+  moveSpeed: 0.2
   timeBetweenEnemySpawns: 1
   spawnTimeVariance: 0.5
   minSpawnTime: 0.2

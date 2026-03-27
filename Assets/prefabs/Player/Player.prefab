@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2837763458431670387}
   - component: {fileID: 6086471054504938514}
   - component: {fileID: 6756437539797853102}
+  - component: {fileID: 5573081799862721028}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -161,7 +162,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c9e2479bc508a49a11a38f5dba71f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
+  isPlayer: 1
   health: 100
+  score: 0
+--- !u!114 &5573081799862721028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281480041753855349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca457384c169c64694920f2c2a24f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Shooter
+  projectilePrefab: {fileID: 9182703162933420636, guid: da4e1129b3c9af44f8872ae995b3005e, type: 3}
+  progectileSpeed: 15
+  progectileLifeTime: 5
+  baseFireingRate: 0.2
+  enemeyFireing: 0
+  fireingRateVareance: 1
+  minFireRate: 0.1
+  isFireing: 0
 --- !u!1 &1760328238628887516
 GameObject:
   m_ObjectHideFlags: 0

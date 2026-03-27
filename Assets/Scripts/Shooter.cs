@@ -17,6 +17,12 @@ public class Shooter : MonoBehaviour
     [HideInInspector] public bool isFireing;
 
     Coroutine fireingCourutine;
+    Audiomanager audioManager;
+
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<Audiomanager>();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -65,6 +71,7 @@ public class Shooter : MonoBehaviour
 
             timeToNextProjectile = Mathf.Clamp(timeToNextProjectile, minFireRate, float.MaxValue);
 
+            audioManager.PlayShootSFX();
 
             yield return new WaitForSeconds(baseFireingRate);
         }

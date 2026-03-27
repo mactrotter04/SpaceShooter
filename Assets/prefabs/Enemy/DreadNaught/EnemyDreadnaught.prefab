@@ -295,7 +295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c9e2479bc508a49a11a38f5dba71f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
+  isPlayer: 0
   health: 800
+  score: 100
 --- !u!114 &-7109432948789118166
 MonoBehaviour:
   m_ObjectHideFlags: 0
