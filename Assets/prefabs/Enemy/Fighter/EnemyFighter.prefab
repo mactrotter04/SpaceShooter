@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ca457384c169c64694920f2c2a24f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
-  projectilePrefab: {fileID: 5886928996358594148, guid: 97bd438267f4b4f4a9e08a25e3f916ba, type: 3}
+  projectilePrefab: {fileID: 5886928996358594148, guid: b5df91f28a66ff04297d21a8bd8a5ab5, type: 3}
   progectileSpeed: 8
   progectileLifeTime: 5
   baseFireingRate: 1

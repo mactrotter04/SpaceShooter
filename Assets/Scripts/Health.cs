@@ -5,10 +5,12 @@ public class Health : MonoBehaviour
     [SerializeField] bool isPlayer;
     [SerializeField] int health = 100;
     [SerializeField] int score = 50;
-
+    [SerializeField] float deathdelay = 2f;
+ 
     Audiomanager Audiomanager;
     ScoreKeeper scoreKeeper;
     LevelManager levelManager;
+    Animator animator;
 
     public int GetHealth()
     {
@@ -20,6 +22,7 @@ public class Health : MonoBehaviour
         Audiomanager = FindAnyObjectByType<Audiomanager>();
         scoreKeeper = FindAnyObjectByType<ScoreKeeper>();
         levelManager = FindFirstObjectByType<LevelManager>();
+        animator = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -56,7 +59,12 @@ public class Health : MonoBehaviour
             levelManager.LoadGameOver();
         }
 
-            Destroy(gameObject);
+        if (animator != null)
+        {
+            animator.SetTrigger("Death");
+        }
+
+        Destroy(gameObject, deathdelay);
     }
 
 
