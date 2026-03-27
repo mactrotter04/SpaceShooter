@@ -128,7 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   isPlayer: 0
   health: 150
-  score: 50
+  score: 300
+  deathdelay: 2
 --- !u!114 &5659120453858465027
 MonoBehaviour:
   m_ObjectHideFlags: 0

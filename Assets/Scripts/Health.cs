@@ -59,11 +59,14 @@ public class Health : MonoBehaviour
             levelManager.LoadGameOver();
         }
 
+        GetComponent<Collider2D>().enabled = false; 
+        GetComponent<Rigidbody2D>().angularVelocity = 0;
+
         if (animator != null)
         {
             animator.SetTrigger("Death");
         }
-
+      
         Destroy(gameObject, deathdelay);
     }
 
